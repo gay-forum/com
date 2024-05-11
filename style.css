@@ -1101,7 +1101,7 @@ ul.art-hmenu>li.ext>.ext-off
    margin:0 auto;
    background-repeat: no-repeat;
    height: 250px;
-   background-image: url('images/object247484342.jpg'), url('images/header.jpg');
+   background-image: url('images/11111.png'), url('images/header.jpg');
    background-position: 12px 72px, 0 0;
    position: relative;
    z-index: auto !important;
@@ -1109,7 +1109,7 @@ ul.art-hmenu>li.ext>.ext-off
 
 .custom-responsive .art-header
 {
-   background-image: url('images/object247484342.jpg'), url('images/header.jpg');
+   background-image: url('images/11111.png'), url('images/header.jpg');
    background-position: 12px 72px, 0 0;
 }
 
